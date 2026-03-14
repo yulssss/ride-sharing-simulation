@@ -1,0 +1,27 @@
+[project]
+name = "ride-pooling-service"
+version = "0.1.0"
+description = "Smart Ride-Pooling Service with VRP routing, dynamic pricing, and demand prediction"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26.0",
+    "pandas>=2.1.0",
+    "networkx>=3.2",
+    "ortools>=9.8",
+    "scikit-learn>=1.4.0",
+    "matplotlib>=3.8.0",
+]
+
+[project.scripts]
+ride-pooling = "main:main"
+
+[tool.uv.workspace]
+members = []
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    "ignore:builtin type SwigPyPacked has no __module__ attribute:DeprecationWarning",
+    "ignore:builtin type SwigPyObject has no __module__ attribute:DeprecationWarning",
+    "ignore:builtin type swigvarlink has no __module__ attribute:DeprecationWarning",
+]
