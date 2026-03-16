@@ -1,7 +1,7 @@
 # Smart Ride-Pooling Service Simulation
 
 <p align="center">
-  <img src="assets/demo_dashboard.png" alt="Ride Pooling Dashboard" width="600">
+  <img src="assets/demo_dashboard.png" alt="Ride Pooling Dashboard" width="700">
   <br>
   <em>Dashboard visualizing real-time fleet operations, demand heatmaps and pricing zones.</em>
 </p>
