@@ -11,14 +11,14 @@ A comprehensive decision science project simulating a ride-pooling service (like
 2.  **Dynamic Pricing:** Surge pricing algorithm based on supply/demand ratios and zone density.
 3.  **Demand Prediction:** Machine learning (Random Forest) to forecast demand and recommend fleet repositioning.
 
-## 🚀 Features
+##  Features
 
 *   **Synthetic City Generation:** Creates grid-based cities with weighted edges and diagonal shortcuts.
 *   **Realistic Simulation:** Generates historical data with rush hour patterns and demand hotspots.
 *   **Interactive Dashboard:** Visualizes fleet, routes, demand heatmaps, and surge zones.
 *   **Optimization:** Solves the VRP (Vehicle Routing Problem) balancing total distance vs. fleet utilization (Global Span Cost).
 
-## 🛠️ Installation
+##  Installation
 
 This project uses modern Python packaging.
 
@@ -38,7 +38,7 @@ uv sync
 uv run main.py
 ```
 
-## 🎮 Usage
+##  Usage
 
 Run the simulation via the command line:
 
@@ -64,7 +64,7 @@ uv run main.py --no-viz
 *   `--no-viz`: Disable pop-up window (useful for servers)
 *   `--save-dashboard`: Path to save the output image
 
-## 🧪 Testing
+##  Testing
 
 The project includes a full test suite using `pytest`.
 
@@ -76,7 +76,7 @@ python -m pytest tests/
 python -m pytest tests/test_routing.py
 ```
 
-## 🧠 Solvers & Logic
+##  Solvers & Logic
 
 ### Routing
 *   **Greedy:** Assigns the nearest available car to the oldest request. Fast but inefficient.
